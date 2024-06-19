@@ -1,14 +1,18 @@
 import datetime 
 
+import os
+
+print(os.system("clear"))
+
 print(datetime.datetime.now())
 
 print("\n")
 
-input_text = input("Enter text: ")
+input_text = input("     Enter text: ")
 
 print("n")
 
-repeat = int(input("Enter range: "))
+repeat = int(input("     Enter range: "))
 
 for i in range(repeat):
      
